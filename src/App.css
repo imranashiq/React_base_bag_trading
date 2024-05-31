@@ -1,0 +1,36 @@
+.grad_text {
+  /* BASEBAG TRADING */
+
+  font-family: "CCMaladroit W00 Bold" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  background: linear-gradient(
+    180deg,
+    #2e5ff3 22%,
+    rgba(255, 255, 255, 0) 100%
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important ;
+  background-clip: text !important;
+}
+
+.swiper {
+  height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-wrapper {
+  width: "100%" !important;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px !important;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
