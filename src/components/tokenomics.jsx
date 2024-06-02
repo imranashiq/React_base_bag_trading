@@ -7,8 +7,6 @@ export default function Tokenomics() {
   return (
     <Container
       sx={{
-        marginTop: { md: "15rem", xs: "5rem" },
-        marginBottom: { md: "10rem", xs: "5rem" },
         minHeight: { md: "100vh", xs: "100%" },
         backgroundImage: { md: "none", xs: `url(${image7})` },
         backgroundPosition: "center",
@@ -16,7 +14,7 @@ export default function Tokenomics() {
         backgroundRepeat: "no-repeat",
         backgroundColor: { md: "#fff", xs: "#3267FF" },
         position: "relative",
-        padding: { md: "0rem 0rem", xs: "5rem 0rem" },
+        padding: "5rem 1rem",
       }}
     >
       <Box
@@ -78,7 +76,14 @@ export default function Tokenomics() {
           </Typography>
         </Stack>
       </Box>
-      <Box sx={{ position: "absolute", top: "0px" }}>
+      <Box
+        sx={{
+          position: "absolute",
+          top: "0px",
+          left: "0px",
+          display: { md: "none", xs: "block" },
+        }}
+      >
         <img src={image8} alt="" />
       </Box>
       <Box sx={{ display: { md: "none", xs: "block" } }}>

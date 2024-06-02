@@ -8,20 +8,36 @@ import leftBottom from "../assets/leftBottom.png";
 
 const Home = ({ onClick }) => {
   return (
-    <Box sx={{ position: "relative", minHeight: { md: "100vh", xs: "100%" } }}>
+    <Box
+      sx={{
+        position: "relative",
+        height: { md: "100vh", xs: "100%" },
+      }}
+    >
       <Container>
-        <Stack pt={{ md: 5, xs: 8 }} direction="column" alignItems="center">
-          <Box
-            sx={{
-              width: { md: "900px", sm: "450px", xs: "270px" },
-            }}
-          >
+        <Stack
+          sx={{
+            padding: "5rem 1rem",
+            height: { lg: "100vh", md: "100%" },
+          }}
+          direction="column"
+          justifyContent={{ lg: "space-between" }}
+          alignItems="center"
+        >
+          <Box>
             <img width="100%" src={image2} alt="" />
           </Box>
-          <Box sx={{ width: { md: "380px", xs: "290px" } }}>
-            <img width="100%" height="100%" src={image1} alt="" />
+          <Box
+            sx={{
+              width: { md: "380px", xs: "290px" },
+            }}
+          >
+            <img width="100%" src={image1} alt="" />
           </Box>
-          <Box sx={{ width: "39px" }} onClick={onClick}>
+          <Box
+            sx={{ width: { md: "39px", lg: "59px", xs: "39px" } }}
+            onClick={onClick}
+          >
             <Lottie
               style={{ cursor: "pointer", marginTop: "2rem" }}
               animationData={animationData}

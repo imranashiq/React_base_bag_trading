@@ -186,10 +186,10 @@ export default function MemeMadness() {
   };
 
   return (
-    <Container sx={{ marginTop: { md: "5rem", xs: "3rem" } }}>
+    <Container sx={{ padding: "5rem 1rem" }}>
       <Typography
         sx={{
-          fontSize: "39px",
+          fontSize: { md: "39px", xs: "50px" },
           fontFamily: "CCMaladroit W00 Bold",
           color: "#3267FF",
           fontWeight: "700",

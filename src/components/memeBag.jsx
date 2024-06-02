@@ -10,8 +10,10 @@ export default function MemeBag({ targetRef }) {
       sx={{
         position: "relative",
         overflow: "hidden",
-        marginTop: "5rem",
-        marginBottom: "5rem",
+        padding: "5rem 1rem",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
         minHeight: { md: "100vh", xs: "100%" },
       }}
     >
@@ -39,14 +41,21 @@ export default function MemeBag({ targetRef }) {
               <Typography
                 sx={{
                   fontFamily: "CCMaladroit W00 Bold",
-                  fontSize: { md: "39px", xs: "26px" },
+                  fontSize: { md: "39px", xs: "27px" },
                   color: "#3267FF",
                   fontWeight: "700",
+                  textAlign: { xs: "center", md: "left" },
                 }}
               >
                 The Degenerate Meme Bag on Basechain
               </Typography>
-              <Typography sx={{ color: "#797979", fontFamily: "Carter One" }}>
+              <Typography
+                sx={{
+                  color: "#797979",
+                  fontFamily: "Carter One",
+                  fontSize: { xs: "18px", md: "24px" },
+                }}
+              >
                 Keep your bag stuffed with the freshest meme loot and be part of
                 the degen revolution on Basechainin! Our vault is overflowing
                 with the wildest memes like Brett, Toshi, Byte, and Mochi. If
@@ -62,6 +71,7 @@ export default function MemeBag({ targetRef }) {
                   boxShadow: "0px 4px 4px rgba(0,0,0, .25)",
                   padding: ".5rem 4rem",
                   borderRadius: "5rem",
+                  marginTop: "2rem",
                 }}
               >
                 Press Here

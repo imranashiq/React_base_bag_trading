@@ -35,28 +35,15 @@ function App() {
         sx={{
           backgroundImage: "linear-gradient(#3267FF, #0009)",
           backgroundColor: "#3267FF",
-          padding: "5rem 2rem",
+          padding: "5rem .5rem",
           position: "relative",
           overflow: "hidden",
-          minHeight: { md: "100vh", xs: "100%" },
+          minHeight: { lg: "100%", md: "100vh", xs: "100%" },
         }}
       >
         <img className="element5" src={vector} alt="" />
         <img className="element51" src={vector2} alt="" />
-        <Typography
-          sx={{
-            textTransform: "uppercase",
-            fontFamily: "CCMaladroit W00 Bold",
-            fontSize: "39px",
-            color: "#fff",
-            fontWeight: "700",
-            textAlign: "center",
-            position: "relative",
-            marginBottom: "6rem",
-          }}
-        >
-          Our Partners
-        </Typography>
+
         <Carousel />
       </Box>
       <MemeMadness />

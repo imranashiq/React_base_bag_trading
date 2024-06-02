@@ -5,8 +5,7 @@ export default function BaseBagTrading() {
   return (
     <Container
       sx={{
-        marginTop: { md: "5rem", xs: "3rem" },
-        marginBottom: { md: "5rem", xs: "3rem" },
+        padding: "5rem 1rem",
         minHeight: { md: "100vh", xs: "100%" },
         display: "flex",
         justifyContent: "center",
@@ -22,7 +21,7 @@ export default function BaseBagTrading() {
       >
         <Typography
           className="grad_text"
-          sx={{ fontSize: { md: "100px", xs: "45px" } }}
+          sx={{ fontSize: { md: "100px", xs: "50px" } }}
         >
           basebag trading
         </Typography>

@@ -3,7 +3,7 @@ import image8 from "../assets/7.gif";
 
 export default function Footer() {
   return (
-    <Container sx={{ marginTop: { md: "5rem", xs: "5rem" } }}>
+    <Container sx={{ padding: "5rem 1rem" }}>
       <Grid container>
         <Grid item xs={12}>
           <Box

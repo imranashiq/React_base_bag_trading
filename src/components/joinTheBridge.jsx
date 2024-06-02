@@ -3,7 +3,7 @@ import image7 from "../assets/10 1.png";
 
 export default function JoinTheBridge() {
   return (
-    <Container>
+    <Container sx={{ padding: "5rem 1rem" }}>
       <Stack
         spacing={2}
         direction={{ md: "row", xs: "column" }}
@@ -22,7 +22,7 @@ export default function JoinTheBridge() {
             sx={{
               textTransform: "uppercase",
               fontFamily: "CCMaladroit W00 Bold",
-              fontSize: "39px",
+              fontSize: { md: "39px", xs: "50px" },
               color: "#3267FF",
               fontWeight: "700",
             }}

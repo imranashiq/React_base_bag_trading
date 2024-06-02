@@ -199,8 +199,27 @@ export default function Carousel() {
   return [
     <Box
       className="thumbs"
-      sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "column",
+      }}
     >
+      <Typography
+        sx={{
+          textTransform: "uppercase",
+          fontFamily: "CCMaladroit W00 Bold",
+          fontSize: { md: "39px", xs: "50px" },
+          color: "#fff",
+          fontWeight: "700",
+          textAlign: "center",
+          position: "relative",
+          marginBottom: "6rem",
+        }}
+      >
+        Our Partners
+      </Typography>
       <AliceCarousel
         activeIndex={thumbIndex}
         responsive={responsive}

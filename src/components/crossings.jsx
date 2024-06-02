@@ -7,7 +7,7 @@ const Crossings = () => {
         sx={{
           width: "100%",
           position: "relative",
-          height: { md: "60vh", xs: "40vh" },
+          height: { md: "60vh", xs: "30vh" },
           overflow: "hidden",
           display: "flex",
           flexDirection: " column",
