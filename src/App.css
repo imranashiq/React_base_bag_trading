@@ -1,3 +1,18 @@
+.animated-text {
+  white-space: nowrap;
+  display: inline-block;
+  animation: moveText 30s linear infinite;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+
 .grad_text {
   /* BASEBAG TRADING */
 
@@ -7,30 +22,75 @@
   text-align: center !important;
   background: linear-gradient(
     180deg,
-    #2e5ff3 22%,
+    #2e5ff3 5%,
     rgba(255, 255, 255, 0) 100%
   ) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important ;
   background-clip: text !important;
 }
-
-.swiper {
-  height: 300px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+.element1 {
+  position: absolute;
+  top: 0;
+  width: 320px;
+  right: 0;
 }
-.swiper-wrapper {
-  width: "100%" !important;
+.element2 {
+  position: absolute;
+  left: 0;
+  width: 130px;
+  top: 12%;
 }
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px !important;
-  height: 300px;
+.element3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 330px;
+  z-index: -9;
 }
-
-.swiper-slide img {
-  display: block;
+.element4 {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 330px;
+  z-index: -99;
+}
+.element5 {
+  position: absolute;
+  bottom: 0;
   width: 100%;
+}
+.element51 {
+  display: none;
+}
+
+@media screen and (max-width: 430px) {
+  .element1 {
+    position: absolute;
+    top: 0;
+    width: 130px;
+    right: 0;
+  }
+  .element2 {
+    position: absolute;
+    left: 0;
+    width: 60px;
+    top: 70px;
+  }
+  .element3 {
+    width: 130px;
+  }
+  .element4 {
+    width: 130px;
+  }
+  .element5 {
+    display: none;
+  }
+  .element51 {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
 }
