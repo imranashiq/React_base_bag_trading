@@ -24,7 +24,7 @@ export default function SocialMedia() {
         >
           Social Media
         </Typography>
-        <Stack direction={{ md: "row", xs: "column" }} spacing={3}>
+        <Stack direction="row" mt={{ xs: 3, md: 2 }} spacing={{ md: 3, xs: 2 }}>
           <Box
             sx={{
               width: { md: "100px", xs: "60px" },

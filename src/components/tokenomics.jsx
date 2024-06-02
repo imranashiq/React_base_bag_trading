@@ -1,5 +1,7 @@
 import { Box, Container, Stack, Typography } from "@mui/material";
 import image6 from "../assets/TRADING IMAGE.png";
+import image7 from "../assets/Vector3.png";
+import image8 from "../assets/Vector4.png";
 
 export default function Tokenomics() {
   return (
@@ -8,6 +10,13 @@ export default function Tokenomics() {
         marginTop: { md: "15rem", xs: "5rem" },
         marginBottom: { md: "10rem", xs: "5rem" },
         minHeight: { md: "100vh", xs: "100%" },
+        backgroundImage: { md: "none", xs: `url(${image7})` },
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundColor: { md: "#fff", xs: "#3267FF" },
+        position: "relative",
+        padding: { md: "0rem 0rem", xs: "5rem 0rem" },
       }}
     >
       <Box
@@ -20,7 +29,7 @@ export default function Tokenomics() {
           borderRadius: { md: "100px", xs: "60px" },
           justifyContent: "center",
           alignItems: "center",
-          display: "flex",
+          display: { md: "flex", xs: "none" },
         }}
       >
         <Stack direction="column" alignItems="center" spacing={2}>
@@ -41,7 +50,57 @@ export default function Tokenomics() {
               background: "#fff",
               borderRadius: "40px",
               padding: { md: "2rem 4rem", xs: "1rem 1rem" },
-              color: "3267FF",
+              color: "#3267FF",
+            }}
+          >
+            <Typography
+              sx={{
+                textTransform: "uppercase",
+                fontFamily: "CCMaladroit W00 Bold",
+                fontSize: { md: "35px", xs: "13px" },
+                color: "#3267FF",
+                fontWeight: "700",
+                textAlign: "center",
+              }}
+            >
+              Total Supply: 555,555,555 $Basebage
+            </Typography>
+          </Box>
+          <Typography
+            sx={{
+              alignSelf: "flex-end",
+              color: "#fff",
+              marginTop: "1.5rem",
+              textAlign: { xs: "center", md: "unset" },
+            }}
+          >
+            Tax: 6% (used for meme buybacks and holder distributions)
+          </Typography>
+        </Stack>
+      </Box>
+      <Box sx={{ position: "absolute", top: "0px" }}>
+        <img src={image8} alt="" />
+      </Box>
+      <Box sx={{ display: { md: "none", xs: "block" } }}>
+        <Stack direction="column" alignItems="center" spacing={2}>
+          <Typography
+            sx={{
+              textTransform: "uppercase",
+              fontFamily: "CCMaladroit W00 Bold",
+              fontSize: { md: "70px", xs: "50px" },
+              color: "#fff",
+              fontWeight: "700",
+              textAlign: "center",
+            }}
+          >
+            tokenomics
+          </Typography>
+          <Box
+            sx={{
+              background: "#fff",
+              borderRadius: "40px",
+              padding: { md: "2rem 4rem", xs: "1rem 1rem" },
+              color: "#3267FF",
             }}
           >
             <Typography

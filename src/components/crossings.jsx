@@ -53,7 +53,7 @@ const Crossings = () => {
           }}
         >
           <Typography
-            className="animated-text"
+            className="animated-text2"
             sx={{
               fontFamily: "CCMaladroit W00 Bold",
               color: "#3267FF",

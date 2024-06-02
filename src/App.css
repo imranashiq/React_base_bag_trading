@@ -1,16 +1,32 @@
 .animated-text {
   white-space: nowrap;
   display: inline-block;
-  animation: moveText 30s linear infinite;
+  animation: moveTextLeftToRight 30s linear infinite;
+}
+.animated-text2 {
+  white-space: nowrap;
+  display: inline-block;
+  animation: moveTextRightToLeft 30s linear infinite;
 }
 
-@keyframes moveText {
+@keyframes moveTextLeftToRight {
   0% {
     transform: translateX(0%);
   }
   100% {
     transform: translateX(50%);
   }
+}
+@keyframes moveTextRightToLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.item {
+  padding: 1rem 1rem !important;
 }
 
 .grad_text {

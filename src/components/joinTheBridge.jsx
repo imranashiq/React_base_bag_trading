@@ -15,7 +15,7 @@ export default function JoinTheBridge() {
             flexDirection: "column",
             alignItems: { md: "flex-start", xs: "center" },
             textAlign: { md: "unset", xs: "center" },
-            gap: "10px",
+            gap: "20px",
           }}
         >
           <Typography
@@ -29,7 +29,17 @@ export default function JoinTheBridge() {
           >
             Join the Brigade:
           </Typography>
-          <Typography sx={{ color: "#797979" }}>
+          <Box
+            sx={{
+              width: { md: "590px", xs: "300px" },
+              display: { md: "none", xs: "block" },
+            }}
+          >
+            <img width="100%" src={image7} alt="" />
+          </Box>
+          <Typography
+            sx={{ color: "#797979", fontFamily: "CCMaladroit W00 Bold" }}
+          >
             Dive into our meme-crazed community on social media. Keep your bag
             stuffed with the freshest meme loot and be part of the degen
             revolution on Basechain!
@@ -49,7 +59,12 @@ export default function JoinTheBridge() {
             Press here
           </Button>
         </Box>
-        <Box sx={{ width: { md: "590px", xs: "280px" } }}>
+        <Box
+          sx={{
+            width: { md: "590px", xs: "280px" },
+            display: { md: "block", xs: "none" },
+          }}
+        >
           <img width="100%" src={image7} alt="" />
         </Box>
       </Stack>
