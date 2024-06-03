@@ -10,12 +10,12 @@ export default function MemeBag({ targetRef }) {
       sx={{
         position: "relative",
         overflow: "hidden",
-        padding: "5rem 1rem",
+        margin: { md: "5rem 0rem 0rem", xs: "3rem 0rem" },
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         height: { md: "100vh", xs: "100%" },
-        maxHeight: "900px",
+        maxHeight: "700px",
       }}
     >
       <Container>
@@ -26,7 +26,7 @@ export default function MemeBag({ targetRef }) {
             md={6}
             sx={{ display: "flex", justifyContent: { xs: "center" } }}
           >
-            <Box sx={{ width: { md: "439px", xs: "320px" } }}>
+            <Box sx={{ width: { md: "639px", xs: "320px" } }}>
               <img width="100%" src={image2} alt="" />
             </Box>
           </Grid>

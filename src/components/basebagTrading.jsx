@@ -10,7 +10,7 @@ export default function BaseBagTrading() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        padding: { xs: "5rem 1rem" },
+        padding: { md: "5rem 1rem 8rem", xs: "3rem 1rem" },
       }}
     >
       <Box

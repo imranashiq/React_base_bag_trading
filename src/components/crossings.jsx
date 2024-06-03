@@ -6,7 +6,7 @@ const Crossings = () => {
       sx={{
         width: "100%",
         position: "relative",
-        height: { lg: "40vh", md: "60vh", xs: "30vh" },
+        height: { lg: "40vh", md: "60vh", xs: "20vh" },
         maxHeight: "500px",
         overflow: "hidden",
         display: "flex",
@@ -37,7 +37,7 @@ const Crossings = () => {
             fontSize: { md: "2rem", xs: "1rem" },
           }}
         >
-          BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.
+          BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.
         </Typography>
       </Box>
       <Box
@@ -62,6 +62,7 @@ const Crossings = () => {
           }}
         >
           BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.
+          BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.
         </Typography>
       </Box>
     </Box>

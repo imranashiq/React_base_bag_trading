@@ -6,7 +6,7 @@ export default function SocialMedia() {
   return (
     <Container
       sx={{
-        padding: "5rem 1rem",
+        padding: { md: "5rem 1rem", xs: "3rem 0rem" },
       }}
     >
       <Box

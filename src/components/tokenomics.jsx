@@ -15,7 +15,7 @@ export default function Tokenomics() {
         backgroundRepeat: "no-repeat",
         backgroundColor: { md: "#fff", xs: "#3267FF" },
         position: "relative",
-        padding: "5rem 1rem",
+        padding: { md: "0rem 1rem", xs: "3rem 1rem" },
         display: "flex",
         justifyContent: "center",
         alignItems: "center",

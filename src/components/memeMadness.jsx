@@ -7,7 +7,7 @@ import {
   IconButton,
   Typography,
 } from "@mui/material";
-import image4 from "../assets/5.gif";
+import image4 from "../assets/1gifff.gif";
 import image5 from "../assets/here image.png";
 import AliceCarousel from "react-alice-carousel";
 import { useRef, useState } from "react";
@@ -186,7 +186,7 @@ export default function MemeMadness() {
   };
 
   return (
-    <Container sx={{ padding: "5rem 1rem" }}>
+    <Container sx={{ padding: { md: "5rem 1rem", xs: "3rem 1rem" } }}>
       <Typography
         sx={{
           fontSize: { md: "39px", xs: "50px" },
@@ -207,7 +207,7 @@ export default function MemeMadness() {
             justifyContent: { md: "flex-end", xs: "center" },
           }}
         >
-          <Box sx={{ width: { md: "300px", xs: "150px" } }}>
+          <Box sx={{ width: { md: "400px", xs: "200px" } }}>
             <img width="100%" src={image4} alt="" />
           </Box>
         </Grid>

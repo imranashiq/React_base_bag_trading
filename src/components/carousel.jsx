@@ -7,7 +7,7 @@ import logo4 from "../assets/_6.png";
 import logo5 from "../assets/_3.png";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import { Box, Typography } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 
 const items = [
   <Box
@@ -197,37 +197,39 @@ export default function Carousel() {
   };
 
   return [
-    <Box
-      className="thumbs"
-      sx={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        flexDirection: "column",
-      }}
-    >
-      <Typography
+    <Container>
+      <Box
+        className="thumbs"
         sx={{
-          textTransform: "uppercase",
-          fontFamily: "CCMaladroit W00 Bold",
-          fontSize: { md: "39px", xs: "50px" },
-          color: "#fff",
-          fontWeight: "700",
-          textAlign: "center",
-          position: "relative",
-          marginBottom: "6rem",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexDirection: "column",
         }}
       >
-        Our Partners
-      </Typography>
-      <AliceCarousel
-        activeIndex={thumbIndex}
-        responsive={responsive}
-        items={thumbs}
-        disableButtonsControls
-        mouseTracking={true}
-        onSlideChanged={syncThumbs}
-      />
-    </Box>,
+        <Typography
+          sx={{
+            textTransform: "uppercase",
+            fontFamily: "CCMaladroit W00 Bold",
+            fontSize: { md: "39px", xs: "50px" },
+            color: "#fff",
+            fontWeight: "700",
+            textAlign: "center",
+            position: "relative",
+            marginBottom: "6rem",
+          }}
+        >
+          Our Partners
+        </Typography>
+        <AliceCarousel
+          activeIndex={thumbIndex}
+          responsive={responsive}
+          items={thumbs}
+          disableButtonsControls
+          mouseTracking={true}
+          onSlideChanged={syncThumbs}
+        />
+      </Box>
+    </Container>,
   ];
 }
