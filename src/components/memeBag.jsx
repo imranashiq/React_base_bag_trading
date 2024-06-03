@@ -55,6 +55,7 @@ export default function MemeBag({ targetRef }) {
                   color: "#797979",
                   fontFamily: "Carter One",
                   fontSize: { xs: "18px", md: "24px" },
+                  textAlign: { md: "left", xs: "center" },
                 }}
               >
                 Keep your bag stuffed with the freshest meme loot and be part of
