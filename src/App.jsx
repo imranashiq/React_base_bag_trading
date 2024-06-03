@@ -38,7 +38,8 @@ function App() {
           padding: "5rem .5rem",
           position: "relative",
           overflow: "hidden",
-          minHeight: { lg: "100%", md: "100vh", xs: "100%" },
+          height: { lg: "100%", md: "100vh", xs: "100%" },
+          maxHeight: "900px",
         }}
       >
         <img className="element5" src={vector} alt="" />

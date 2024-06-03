@@ -7,7 +7,8 @@ export default function Tokenomics() {
   return (
     <Container
       sx={{
-        minHeight: { md: "100vh", xs: "100%" },
+        height: { md: "100vh", xs: "100%" },
+        maxHeight: "900px",
         backgroundImage: { md: "none", xs: `url(${image7})` },
         backgroundPosition: "center",
         backgroundSize: "cover",
@@ -15,12 +16,16 @@ export default function Tokenomics() {
         backgroundColor: { md: "#fff", xs: "#3267FF" },
         position: "relative",
         padding: "5rem 1rem",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
       }}
     >
       <Box
         sx={{
           backgroundImage: `url(${image6})`,
           height: { md: "500px", xs: "300px" },
+          width: "100%",
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",

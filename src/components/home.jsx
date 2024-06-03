@@ -8,44 +8,33 @@ import leftBottom from "../assets/leftBottom.png";
 
 const Home = ({ onClick }) => {
   return (
-    <Box
-      sx={{
-        position: "relative",
-        height: { md: "100vh", xs: "100%" },
-      }}
-    >
+    <Box className="wrapper">
       <Container>
-        <Stack
+        <Box
           sx={{
-            padding: "5rem 1rem",
-            height: { lg: "100vh", md: "100%" },
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "space-between",
           }}
-          direction="column"
-          justifyContent={{ lg: "space-between" }}
-          alignItems="center"
         >
-          <Box>
-            <img width="100%" src={image2} alt="" />
-          </Box>
           <Box
             sx={{
-              width: { md: "380px", xs: "290px" },
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
-            <img width="100%" src={image1} alt="" />
+            <img className="heading" src={image2} alt="" />
+            <img className="gif1" src={image1} alt="" />
           </Box>
-          <Box
-            sx={{ width: { md: "39px", lg: "59px", xs: "39px" } }}
+          <Lottie
             onClick={onClick}
-          >
-            <Lottie
-              style={{ cursor: "pointer", marginTop: "2rem" }}
-              animationData={animationData}
-            />
-          </Box>
-        </Stack>
+            className="lottie"
+            animationData={animationData}
+          />
+        </Box>
       </Container>
-
       <img className="element1" src={topRight} alt="" />
       <img className="element2" src={leftBottom} alt="" />
     </Box>

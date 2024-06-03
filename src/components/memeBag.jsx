@@ -14,28 +14,29 @@ export default function MemeBag({ targetRef }) {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        minHeight: { md: "100vh", xs: "100%" },
+        height: { md: "100vh", xs: "100%" },
+        maxHeight: "900px",
       }}
     >
       <Container>
         <Grid container>
-          <Grid item xs={12} md={6}>
-            <Box sx={{ width: { md: "439px", xs: "320px" } }}>
-              <img width="100%" src={image2} alt="" />
-            </Box>
-          </Grid>
           <Grid
             item
             xs={12}
             md={6}
-            sx={{ display: "flex", alignItems: "center" }}
+            sx={{ display: "flex", justifyContent: { xs: "center" } }}
           >
+            <Box sx={{ width: { md: "439px", xs: "320px" } }}>
+              <img width="100%" src={image2} alt="" />
+            </Box>
+          </Grid>
+          <Grid item xs={12} md={6}>
             <Box
               sx={{
                 display: "flex",
                 flexDirection: "column",
                 gap: "1rem",
-                alignItems: { md: "start", xs: "center" },
+                alignItems: { md: "start", sm: "center", xs: "center" },
               }}
             >
               <Typography

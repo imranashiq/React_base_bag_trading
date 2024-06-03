@@ -47,6 +47,25 @@
   -webkit-text-fill-color: transparent !important ;
   background-clip: text !important;
 }
+.wrapper {
+  padding: 5rem 1rem;
+  position: relative;
+}
+.heading {
+  width: 700px;
+}
+.gif1 {
+  width: 380px;
+}
+.lottie {
+  width: 59px !important;
+  margin-top: 5rem;
+  cursor: pointer;
+}
+.memeWrapper {
+  display: flex !important;
+  background-color: #2e5ff3 !important;
+}
 .element1 {
   position: absolute;
   top: 0;
@@ -57,7 +76,7 @@
   position: absolute;
   left: 0;
   width: 130px;
-  bottom: 0;
+  bottom: 0% !important;
 }
 .element3 {
   position: absolute;
@@ -82,21 +101,10 @@
   display: none;
 }
 
-@media screen and (min-width: 1920px) {
-  .element1 {
-    position: absolute;
-    top: 0;
-    width: 720px;
-    right: 0;
-  }
-  .element2 {
-    position: absolute;
-    left: 0;
-    width: 230px;
-    top: 12%;
-  }
-}
 @media screen and (min-width: 1600px) {
+  .heading {
+    width: 900px;
+  }
   .element1 {
     position: absolute;
     top: 0;
@@ -107,10 +115,72 @@
     position: absolute;
     left: 0;
     width: 170px;
-    top: 12%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .element1 {
+    position: absolute;
+    top: 0;
+    width: 130px;
+    right: 0px;
+  }
+  .element2 {
+    position: absolute;
+    left: 0;
+    width: 60px;
+  }
+  .element3 {
+    width: 190px;
+  }
+  .element4 {
+    width: 190px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    width: 500px;
+  }
+  .gif1 {
+    width: 230px;
+  }
+  .lottie {
+    width: 39px !important;
+    margin-top: 5rem;
+  }
+  .element1 {
+    position: absolute;
+    top: 0;
+    width: 130px;
+    right: 0px;
+  }
+  .element2 {
+    position: absolute;
+    left: 0;
+    width: 60px;
+  }
+  .element3 {
+    width: 130px;
+  }
+  .element4 {
+    width: 130px;
   }
 }
 @media screen and (max-width: 430px) {
+  .wrapper {
+    padding: 5rem 1rem 1rem;
+    position: relative;
+  }
+  .heading {
+    width: 300px;
+  }
+  .gif1 {
+    width: 230px;
+  }
+  .lottie {
+    width: 39px !important;
+    margin-top: 5rem;
+  }
   .element1 {
     position: absolute;
     top: 0;

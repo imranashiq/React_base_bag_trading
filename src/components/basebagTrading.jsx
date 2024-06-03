@@ -5,11 +5,12 @@ export default function BaseBagTrading() {
   return (
     <Container
       sx={{
-        padding: "5rem 1rem",
-        minHeight: { md: "100vh", xs: "100%" },
+        height: { md: "100vh", xs: "100%" },
+        maxHeight: "700px",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        padding: { xs: "5rem 1rem" },
       }}
     >
       <Box
