@@ -55,7 +55,7 @@
   width: 700px;
 }
 .gif1 {
-  width: 380px;
+  width: 580px;
 }
 .lottie {
   width: 59px !important;
@@ -146,7 +146,7 @@
     width: 500px;
   }
   .gif1 {
-    width: 230px;
+    width: 330px;
   }
   .lottie {
     width: 39px !important;
@@ -170,7 +170,7 @@
     width: 130px;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 431px) {
   .wrapper {
     padding: 5rem 1rem 1rem;
     position: relative;
@@ -179,7 +179,7 @@
     width: 300px;
   }
   .gif1 {
-    width: 230px;
+    width: 330px;
   }
   .lottie {
     width: 39px !important;

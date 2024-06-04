@@ -1,5 +1,5 @@
-import { Box, Container, Stack } from "@mui/material";
-import image1 from "../assets/6.gif";
+import { Box, Container } from "@mui/material";
+import image1 from "../assets/bag-front-wave.gif";
 import image2 from "../assets/logo.png";
 import animationData from "../assets/scroll down.json";
 import Lottie from "lottie-react";
