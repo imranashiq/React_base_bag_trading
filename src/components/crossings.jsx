@@ -27,6 +27,8 @@ const Crossings = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          borderTop: "2px solid #000",
+          borderBottom: "2px solid #000",
         }}
       >
         <Typography
@@ -35,6 +37,7 @@ const Crossings = () => {
             fontFamily: "CCMaladroit W00 Bold",
             color: "#fff",
             fontSize: { md: "2rem", xs: "1rem" },
+            WebkitTextStroke: "2px #000",
           }}
         >
           BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.
@@ -51,6 +54,8 @@ const Crossings = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          borderTop: "2px solid #000",
+          borderBottom: "2px solid #000",
         }}
       >
         <Typography
@@ -59,6 +64,7 @@ const Crossings = () => {
             fontFamily: "CCMaladroit W00 Bold",
             color: "#3267FF",
             fontSize: { md: "2rem", xs: "1rem" },
+            WebkitTextStroke: "2px #000",
           }}
         >
           BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.BaseBag.

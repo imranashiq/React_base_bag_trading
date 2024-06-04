@@ -26,7 +26,7 @@ export default function MemeBag({ targetRef }) {
             md={6}
             sx={{ display: "flex", justifyContent: { xs: "center" } }}
           >
-            <Box sx={{ width: { md: "639px", xs: "320px" } }}>
+            <Box sx={{ width: { md: "480px", xs: "320px" } }}>
               <img width="100%" src={image2} alt="" />
             </Box>
           </Grid>
@@ -69,11 +69,12 @@ export default function MemeBag({ targetRef }) {
                 sx={{
                   background: "#3267FF",
                   color: "#fff",
-                  border: "2px solid #fff",
+                  border: "3px solid #000",
                   boxShadow: "0px 4px 4px rgba(0,0,0, .25)",
                   padding: ".5rem 4rem",
                   borderRadius: "5rem",
                   marginTop: "2rem",
+                  fontFamily: "CCMaladroit W00 Bold",
                 }}
               >
                 Press Here

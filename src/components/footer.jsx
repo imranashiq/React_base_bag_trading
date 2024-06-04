@@ -1,11 +1,11 @@
 import { Box, Container, Divider, Grid, Typography } from "@mui/material";
-import image8 from "../assets/7.gif";
+// import image8 from "../assets/7.gif";
 
 export default function Footer() {
   return (
     <Container sx={{ padding: { md: "5rem 1rem", xs: "3rem 1rem" } }}>
       <Grid container>
-        <Grid item xs={12}>
+        {/* <Grid item xs={12}>
           <Box
             sx={{
               display: "flex",
@@ -38,7 +38,7 @@ export default function Footer() {
               </Typography>
             </Box>
           </Box>
-        </Grid>
+        </Grid> */}
         <Divider
           sx={{
             width: "100%",

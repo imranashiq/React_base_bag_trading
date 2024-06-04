@@ -36,6 +36,8 @@ function App() {
           backgroundImage: "linear-gradient(#3267FF, #0009)",
           backgroundColor: "#3267FF",
           padding: "5rem .5rem",
+          borderTop: "3px solid #000",
+          borderBottom: "3px solid #000",
           position: "relative",
           overflow: "hidden",
           height: { lg: "100%", md: "100vh", xs: "100%" },

@@ -71,12 +71,16 @@
   top: 0;
   width: 320px;
   right: 0;
+  -webkit-filter: drop-shadow(3px 3px 0 black) drop-shadow(-3px -3px 0 black);
+  filter: drop-shadow(3px 3px 0 black) drop-shadow(-3px -3px 0 black);
 }
 .element2 {
   position: absolute;
   left: 0;
   width: 130px;
   bottom: 0% !important;
+  -webkit-filter: drop-shadow(3px 3px 0 black) drop-shadow(-3px -3px 0 black);
+  filter: drop-shadow(3px 3px 0 black) drop-shadow(-3px -3px 0 black);
 }
 .element3 {
   position: absolute;

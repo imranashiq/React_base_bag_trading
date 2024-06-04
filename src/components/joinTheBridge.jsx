@@ -48,8 +48,9 @@ export default function JoinTheBridge() {
             variant="contained"
             sx={{
               background: "#3267FF",
+              fontFamily: "CCMaladroit W00 Bold",
               color: "#fff",
-              border: "2px solid #fff",
+              border: "3px solid #000",
               boxShadow: "0px 4px 4px rgba(0,0,0, .25)",
               padding: ".5rem 4rem",
               borderRadius: "5rem",
